@@ -1,4 +1,19 @@
-import { useEffect, useMemo, useState } from "react";
+{
+  "name": "sim-racing-leaderboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "qrcode.react": "^3.1.0"
+  }
+}import { useEffect, useMemo, useState } from "react";
 import QRCode from "qrcode.react";
 
 export default function Home() {
